@@ -33,7 +33,9 @@ jobs:
         with:
           ocaml-compiler: "5.2"
 
-      - run : opam install . --verbose
+      - run : opam install stdlib-theme --verbose
+
+      - run : opam exec -- odig odoc-theme set odoc.stdlib-theme
 
       - run : opam exec -- odig odoc 
      
