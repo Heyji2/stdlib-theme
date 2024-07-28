@@ -12,5 +12,5 @@ homepage:"https://github.com/Heyji2/stdlib-theme"
 bug-reports:"https://github.com/Heyji2/stdlib-theme/issue"
 dev-repo:"git+https://github.com/Heyji2/stdlib-theme"
 depends: ["odoc" "odig"]
-build: ["mv" "odoc.css" "%{playground:share}%/odoc-theme"]
+build: ["mv" "odoc.css" "%{share}%/odoc-theme"]
 
