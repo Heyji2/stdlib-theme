@@ -1,9 +1,9 @@
 opam-version: "2.0"
 name: "stlib-theme"
 version: "0.1"
-synopsis: "An theme mimicking the one of the ocaml manual used to publish the standard library"
+synopsis: "An theme mimicking ocaml manual's theme"
 description: """
-Longer description
+This is a theme with the same look as OCaml manual's theme.
 """
 maintainer: "Heyji <heyji2@gmail.com>"
 author: "Heyji <heyji2@gmail.com>"
