@@ -1,0 +1,16 @@
+opam-version: "2.0"
+name: "stlib-theme"
+version: "0.1"
+synopsis: "An theme mimicking the one of the ocaml manual used to publish the standard library"
+description: """
+Longer description
+"""
+maintainer: "Heyji <heyji2@gmail.com>"
+author: "Heyji <heyji2@gmail.com>"
+license: "ISC"
+homepage:"https://github.com/Heyji2/stdlib-theme"
+bug-reports:"https://github.com/Heyji2/stdlib-theme/issue"
+dev-repo:"git+https://github.com/Heyji2/stdlib-theme"
+depends: ["odoc" "odig"]
+build: ["mv odoc.css $(opam var std-theme:share)/odoc-theme"]
+
