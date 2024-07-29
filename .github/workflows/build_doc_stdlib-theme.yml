@@ -35,7 +35,9 @@ jobs:
 
       - run : opam switch create local --empty
 
-      - run : opam install odoc odig stdlib-theme --verbose
+      - run : opam install odoc odig --verbose
+
+      - run : opam install stdlib-theme --verbose
 
       - run : opam exec -- odig odoc-theme set odoc.stdlib-theme
 
