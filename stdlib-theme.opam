@@ -12,7 +12,8 @@ homepage:"https://github.com/Heyji2/stdlib-theme"
 bug-reports:"https://github.com/Heyji2/stdlib-theme/issue"
 dev-repo:"git+https://github.com/Heyji2/stdlib-theme"
 depends: ["odoc" {>="3.0.0"} "odig" {>="0.0.9"}]
-build: [
+depopts: []
+install: [
     ["mkdir" "%{stdlib-theme:share}%/odoc/odoc-theme/%{name}%"]
     ["mv" "odoc.css" "%{stdlib-theme:share}%/odoc/odoc-theme/%{name}%/odoc.css"]
 ]
