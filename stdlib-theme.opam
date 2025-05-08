@@ -15,7 +15,7 @@ depends: ["odoc" {>="3.0.0"} "odig" {>="0.0.9"}]
 depopts: []
 install: [
     ["pwd"]
-    ["mkdir" "%{stdlib-theme:share}%/odoc/odoc-theme/%{name}%"]
-    ["mv" "odoc.css" "%{stdlib-theme:share}%/odoc/odoc-theme/%{name}%/odoc.css"]
+    ["mkdir" "-p" "%{stdlib-theme:share}%/odoc/odoc-theme/%{name}%"]
+    ["cp" "odoc.css" "%{stdlib-theme:share}%/odoc/odoc-theme/%{name}%/odoc.css"]
 ]
 
