@@ -1,6 +1,5 @@
 opam-version: "2.0"
 name: "stdlib-theme"
-theme : "stdlib"
 version: "0.1"
 synopsis: "An theme mimicking ocaml manual's theme"
 description: """
@@ -15,7 +14,7 @@ dev-repo:"git+https://github.com/Heyji2/stdlib-theme"
 depends: ["odoc" {>="3.0.0"} "odig" {>="0.0.9"}]
 depopts: []
 install: [
-    ["mkdir" "-p" "%{stdlib-theme:share}%/odoc-theme/%{theme}%"]
-    ["cp" "odoc.css" "%{stdlib-theme:share}%/odoc-theme/%{theme}%/odoc.css"]
+    ["mkdir" "-p" "%{stdlib-theme:share}%/odoc-theme/stdlib"]
+    ["cp" "odoc.css" "%{stdlib-theme:share}%/odoc-theme/stdlib/odoc.css"]
 ]
 
