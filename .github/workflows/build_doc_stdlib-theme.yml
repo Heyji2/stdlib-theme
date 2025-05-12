@@ -43,7 +43,7 @@ jobs:
 
       - run : opam exec -- odig odoc odig 
 
-      - run : gh-pages-amend $(odig cache path)/html doc
+      - run : opam exec -- gh-pages-amend $(odig cache path)/html doc
      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
